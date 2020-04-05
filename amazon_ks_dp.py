@@ -8,8 +8,6 @@ dataframe.Discounted_Price = dataframe.Discounted_Price.astype(int)
 
 print('\nHere is the list of 30 items to select with $1000 budget and max discount:\n') 
 print(dataframe)
-##dataframe2=dataframe[['Index'],['Item'],['Discounted_price'],['Discount']]
-##print(dataframe2)
 
 discount = list(dataframe['Discount'])
 price = list(dataframe['Discounted_Price'])
