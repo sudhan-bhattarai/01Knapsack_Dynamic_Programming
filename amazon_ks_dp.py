@@ -18,8 +18,6 @@ col = capital + 1 # total columns in knapsack array including capital = 0
 row = len (discount) # total no of rows in knapsack array for total items
 
 amazon_ks_arr = [[0 for x in range (col)] for y in range (row)] #knapsack array
-#print (amazon_ks_arr)
-
 
 for item in range (row):
     for budget in range (col):
